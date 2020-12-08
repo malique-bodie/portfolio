@@ -1,0 +1,138 @@
+body{
+    background-color: white;
+
+}
+
+.navbar{
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 75px;
+    background-color: #5A7684;
+    color: white;
+
+}
+
+.nav-item, .navbar-brand{
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #5A7684;
+    color: white;
+
+}
+
+.nav-link{
+    color: white;
+}
+
+
+.main {
+  margin-top: 75px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#About{
+    height: 90%;
+    padding-top: 45px;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.heading{
+    width: fit-content;
+    background-color: #5A7684;
+
+    color: white;
+    font-size: 60px;
+    margin-left: 65px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bolder;
+}
+
+.subheading{
+    color: black;
+    font-size: 40px;
+    padding-left: 65px;
+
+}
+
+.col{
+    max-width: 55%;
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.avi{
+    padding-left: 65px;
+    max-width: 50%;
+    height: auto;
+    padding-top: 10px;
+}
+
+.title{
+
+    width: fit-content;
+    margin-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 25px;
+    background-color: #5A7684;
+
+}
+
+.section-wrapper{
+    margin-left: 120px;
+    margin-right: 120px;
+
+}
+
+.row-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: center;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+.card{
+    max-width: 45%;
+    margin-top: 30px;
+    background-color: #5A7684;
+    color: white;
+}
+
+.card:hover{
+    background-color: white;
+    color: black;
+}
+
+.res{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+}

@@ -1,0 +1,200 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Navbar-->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-fixed-top">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active ">
+                        <a class="nav-link color" href="#">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link color" href="#Projects">Projects</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link color" href="#Resume">Resume</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link color" href="#Contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Main Body-->
+        <div class="main" >
+
+            <!-- About Section-->
+            <div id="About">
+                <div class="row">
+                    <img class="avi" alt="picture of me" src="https://i.redd.it/u9y972hdmk021.png";>
+                    <div class="col">
+                        <div class="vertical-center">
+                        <div class="heading"> Hey, I'm John Doe!</div>
+                        <div class="subheading">
+                            I am a second year at Brown University,
+                            studying Computer Science and Africana Studies.
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <br/>
+
+
+            </div>
+
+            <!-- Work Section -->
+            <div class="section-wrapper" id="Projects">
+                <div class="title">
+                    Projects
+                </div>
+                <div class="container">
+                    <div class="row-container">
+                        <div class="card">
+                            <a href="https://pacific-citadel-04262.herokuapp.com/"><img class="card-img-top" src="./img/development.png" alt="Card image cap"></a>
+                            <div class="card-body">
+                                <p class="card-text">Implemented a web application modeling a furniture archive using javascript react frameworks.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <a href="https://fierce-headland-10526.herokuapp.com/"><img class="card-img-top" src="./img/abtest.png" alt="Card image cap"></a>
+                            <div class="card-body">
+                                <p class="card-text">Performed A/B testing on a plant shopping interface, and created + ran python scripts to determine results and their statistical signifigance.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <a href="https://mysterious-oasis-16949.herokuapp.com/"><img class="card-img-top" src="./img/redesign.png" alt="Card image cap"></a>
+                            <div class="card-body">
+                                <p class="card-text">Took a poorly designed website, identified its flaws, and redesigned it, keeping in mind accessibility and standard design principles.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="./img/iterative.png" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Designed an interface based on a startup matching podcast producers with sound engineers. Design took on multiple iterations, with continuous feedback and critique being integrated into the final design.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="./img/storyboard.png" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Selected an interface and studied how users interacted with it, using the interfaces design cues to help guide them. Surveyed users and compiled data into multiple distinct personas, accompanied by a storyboard of said persona using the interface. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Resume Section -->
+            <div class="section-wrapper" id="Resume">
+                <div class="title">
+                    Resume
+                </div>
+                <div class="row-container">
+                    <img class="res" alt="picture of me" src="https://www.docdroid.net/file/view/xGmN9P7/copy-of-copy-of-john-doe-resume-2-pdf.jpg";>
+                </div>
+            </div>
+
+            <!-- Contact Section -->
+            <div class="section-wrapper" id="Contact">
+                <div class="title">
+                    Contact
+                </div>
+
+                <div class="row">
+
+            <!--Grid column-->
+            <div class="col-md-9 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Your email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+            <!--Grid row-->
+
+            <!--Grid row-->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="md-form mb-0">
+                        <input type="text" id="subject" name="subject" class="form-control">
+                        <label for="subject" class="">Subject</label>
+                    </div>
+                </div>
+            </div>
+            <!--Grid row-->
+
+            <!--Grid row-->
+            <div class="row">
+
+                <!--Grid column-->
+                <div class="col-md-12">
+
+                    <div class="md-form">
+                        <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                        <label for="message">Your message</label>
+                    </div>
+
+                </div>
+            </div>
+            <!--Grid row-->
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-secondary" >Send</a>
+            </div>
+            <div class="status"></div>
+            </div>
+    <!--Grid column-->
+
+        <!--Grid column-->
+            <div class="col-md-3 text-center">
+                <ul class="list-unstyled mb-0">
+                    <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                        <p>Providence, RI 02414, USA</p>
+                    </li>
+
+                    <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                        <p>+ 01 678 999 3212</p>
+                    </li>
+
+                    <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                        <p>name@brown.edu</p>
+                    </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+
+            </div>
+        </div>
+    </div>
+
+    </body>
+</html>
